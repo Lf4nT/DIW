@@ -371,16 +371,9 @@ body {
   border: none;
 }
 
-#contact-form button a {
-  text-decoration: none;
-}
-
-#contact-form button:hover a {
-  color: white;
-}
-
 #contact-form button:hover {
   background-color: rgb(57, 34, 161);
+  color: white;
 }
 
 footer {
