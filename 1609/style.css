@@ -1,0 +1,518 @@
+html {
+  margin: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(248, 46, 255), rgb(129, 62, 253));
+}
+
+#mainhead {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#header1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+  width: 58%;
+  margin: auto;
+}
+
+#header1 h1 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  text-shadow: 3px 3px 7px rgb(94, 0, 176);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#header1 h2 {
+  text-align: center;
+  color: rgb(255, 217, 0);
+  font-size: 80px;
+  text-shadow: 3px 3px 7px rgb(94, 0, 176);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#iconshead {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-right: 20px;
+  width: 22%;
+  margin: auto;
+}
+
+#navbar {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+#navbar li {
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(57, 34, 161);
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+#navbar li:hover a {
+  color: rgb(57, 34, 161); /* Color de Hover */
+}
+
+#navbar li:hover {
+  background-color: rgb(255, 217, 0); /* Fondo Hover */
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(57, 34, 161);
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+
+.main h1 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#item {
+  background-color: white;
+  max-width: 23%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#item h1 {
+  background-color: rgb(150, 0, 176);
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#item h2 {
+  color: rgb(57, 34, 161);
+  max-width: 50%;
+  margin: auto;
+}
+
+#item img {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#item button {
+  max-width: 50%;
+  background-color: rgb(255, 217, 0);
+  color: rgb(57, 34, 161);
+  border-radius: 15px;
+  border: 0px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  padding: 10px;
+}
+
+#item button a {
+  text-decoration: none;
+}
+
+#item button:hover a {
+  color: white; /* Color de Hover */
+}
+
+#item button:hover {
+  background-color: rgb(57, 34, 161); /* Fondo Hover */
+}
+
+#services {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  text-align: center;
+  justify-content: space-evenly;
+  color: white;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#services h1 {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+#services-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  max-width: 20%;
+  text-align: center;
+}
+
+#services-item img {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+#services-item h2 {
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+#services-item p {
+  font-size: 20px;
+}
+
+#blog {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#blog h1 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+#blog-mainframe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#blog-image {
+  max-width: 45%;
+  width: 100%;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 50px;
+  background-image: url(./Assets/Images/cat.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  border: 2px solid rgb(57, 34, 161);
+}
+
+#blog-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 45%;
+  height: 450px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: 2px solid rgb(57, 34, 161);
+  border-radius: 15px;
+}
+
+#formularios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#formularios h1 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+#contact-form {
+  margin: auto;
+  background-color: rgb(207, 111, 252);
+  padding: 20px;
+  border: 2px solid rgb(57, 34, 161);
+  border-radius: 15px;
+  width: 100%;
+}
+
+#contact-form h1 {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
+
+#contact-form p {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#form-head {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#form-head #form-group label {
+  display: flex;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#form-head #form-group {
+  width: 48%;
+}
+
+#form-head #form-group textarea {
+  height: 100px;
+  resize: none;
+}
+
+#form-group {
+  margin-bottom: 15px;
+}
+
+#form-group label {
+  display: flex;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#form-group input,
+#form-group textarea {
+  width: calc(100% - 10px);
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 15px;
+  border: 2px solid rgb(57, 34, 161);
+}
+
+#form-group textarea {
+  height: 100px;
+  resize: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contact-form button {
+  width: 20%;
+  background-color: rgb(255, 217, 0);
+  color: rgb(57, 34, 161);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+}
+
+#contact-form button a {
+  text-decoration: none;
+}
+
+#contact-form button:hover a {
+  color: white;
+}
+
+#contact-form button:hover {
+  background-color: rgb(57, 34, 161);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+}
+
+footer h2 {
+  width: 50%;
+}
+
+#footer-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+#footer-img img {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  #header1 h1 {
+    font-size: 50px;
+  }
+
+  #header1 h2 {
+    font-size: 50px;
+  }
+
+  #navbar a {
+    font-size: 13px;
+  }
+
+  #item {
+    max-width: 40%;
+  }
+
+  #services {
+    max-width: 80%;
+  }
+
+  #services-item {
+    max-width: 40%;
+  }
+
+  #blog-image {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #blog-text {
+    max-width: 100%;
+    margin-bottom: 30px;
+    height: auto;
+    order: -1;
+  }
+
+  #form-head #form-group {
+    width: 100%;
+  }
+
+  #contact-form button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #header1 h1 {
+    font-size: 30px;
+  }
+
+  #header1 h2 {
+    font-size: 30px;
+  }
+
+  #navbar a {
+    font-size: 15px;
+  }
+
+  #navbar li {
+    width: 100%;
+  }
+
+  #item {
+    max-width: 80%;
+  }
+
+  #services {
+    max-width: 80%;
+  }
+
+  #services-item {
+    max-width: 100%;
+  }
+
+  #blog-image {
+    max-width: 100%;
+  }
+
+  #blog-text {
+    max-width: 100%;
+    margin-bottom: 30px;
+    height: auto;
+    order: -1;
+  }
+
+  #form-head #form-group {
+    width: 100%;
+  }
+
+  #contact-form button {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+
+  footer h2 {
+    width: 100%;
+  }
+
+  #footer-img {
+    justify-content: space-around;
+  }
+}
