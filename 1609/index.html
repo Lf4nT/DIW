@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/Stylesheets/normalize.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./Assets/Stylesheets/normalize.css" />
     <title>Tienda Online</title>
   </head>
   <body>
@@ -17,9 +17,9 @@
           </div>
         </div>
         <div id="iconshead">
-          <img src="./Assets/Icons/icons8-facebook-50.png" alt="logo" />
-          <img src="./Assets/Icons/icons8-instagram-50.png" alt="logo" />
-          <img src="./Assets/Icons/icons8-twitter-50.png" alt="logo" />
+          <img src="Assets/Icons/icons8-facebook-50.png" alt="logo" />
+          <img src="Assets/Icons/icons8-instagram-50.png" alt="logo" />
+          <img src="Assets/Icons/icons8-twitter-50.png" alt="logo" />
         </div>
       </div>
       <nav>
@@ -36,49 +36,49 @@
       <h1>NUESTROS DISEÑOS</h1>
       <section id="item">
         <h1>HTML5</h1>
-        <img src="./Assets/Images/cat.jpg" alt="cat" />
+        <img src="Assets/Images/cat.jpg" alt="cat" />
         <h2>$ 25</h2>
         <button><a href="#">COMPRAR</a></button>
       </section>
       <section id="item">
         <h1>CSS3</h1>
-        <img src="./Assets/Images/cat.jpg" alt="cat" />
+        <img src="Assets/Images/cat.jpg" alt="cat" />
         <h2>$ 25</h2>
         <button><a href="#">COMPRAR</a></button>
       </section>
       <section id="item">
         <h1>NODEJS</h1>
-        <img src="./Assets/Images/cat.jpg" alt="cat" />
+        <img src="Assets/Images/cat.jpg" alt="cat" />
         <h2>$ 25</h2>
         <button><a href="#">COMPRAR</a></button>
       </section>
       <section id="item">
         <h1>JAVASCRIPT</h1>
-        <img src="./Assets/Images/cat.jpg" alt="cat" />
+        <img src="Assets/Images/cat.jpg" alt="cat" />
         <h2>$ 25</h2>
         <button><a href="#">COMPRAR</a></button>
       </section>
       <section id="item">
         <h1>HTML5 <br />(OSCURA)</h1>
-        <img src="./Assets/Images/cat.jpg" alt="cat" />
+        <img src="Assets/Images/cat.jpg" alt="cat" />
         <h2>$ 25</h2>
         <button><a href="#">COMPRAR</a></button>
       </section>
       <section id="item">
         <h1>CSS3 <br />(OSCURA)</h1>
-        <img src="./Assets/Images/cat.jpg" alt="cat" />
+        <img src="Assets/Images/cat.jpg" alt="cat" />
         <h2>$ 25</h2>
         <button><a href="#">COMPRAR</a></button>
       </section>
       <section id="item">
         <h1>NODEJS <br />(OSCURA)</h1>
-        <img src="./Assets/Images/cat.jpg" alt="cat" />
+        <img src="Assets/Images/cat.jpg" alt="cat" />
         <h2>$ 25</h2>
         <button><a href="#">COMPRAR</a></button>
       </section>
       <section id="item">
         <h1>JAVASCRIPT <br />(OSCURA)</h1>
-        <img src="./Assets/Images/cat.jpg" alt="cat" />
+        <img src="Assets/Images/cat.jpg" alt="cat" />
         <h2>$ 25</h2>
         <button><a href="#">COMPRAR</a></button>
       </section>
@@ -86,7 +86,7 @@
     <section id="services">
       <h1>SOBRE NOSOTROS</h1>
       <div id="services-item">
-        <img src="./Assets/Icons/icons8-check-50.png" alt="logo" />
+        <img src="Assets/Icons/icons8-check-50.png" alt="logo" />
         <h2>GRAN SERVICIO</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
@@ -96,7 +96,7 @@
         </p>
       </div>
       <div id="services-item">
-        <img src="./Assets/Icons/icons8-clock-50.png" alt="logo" />
+        <img src="Assets/Icons/icons8-clock-50.png" alt="logo" />
         <h2>GRAN RAPIDEZ</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum non nobis
@@ -106,7 +106,7 @@
         </p>
       </div>
       <div id="services-item">
-        <img src="./Assets/Icons/icons8-css-50.png" alt="logo" />
+        <img src="Assets/Icons/icons8-css-50.png" alt="logo" />
         <h2>PARA DEVS</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
@@ -116,7 +116,7 @@
         </p>
       </div>
       <div id="services-item">
-        <img src="./Assets/Icons/icons8-dollar-50.png" alt="logo" />
+        <img src="Assets/Icons/icons8-dollar-50.png" alt="logo" />
         <h2>MEJOR PRECIO</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, dolorum
@@ -154,8 +154,7 @@
       <h1>CONTACTO</h1>
       <div id="contact-form">
         <p>CONTÁCTANOS LLENANDO TODOS LOS CAMPOS</p>
-        <form action="/" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact-form" />
+        <form name="datos" method="POST" data-netlify="true">
           <div id="form-head">
             <div id="form-group">
               <label for="name">Nombre</label>
@@ -164,6 +163,8 @@
                 id="name"
                 name="name"
                 placeholder="Tu Nombre"
+                minlength="3"
+                maxlength="20"
                 required
               />
             </div>
@@ -206,9 +207,9 @@
     <footer>
       <h2>FrontEndStore 2016.</h2>
       <div id="footer-img">
-        <img src="./Assets/Icons/icons8-facebook-50.png" alt="logo" />
-        <img src="./Assets/Icons/icons8-instagram-50.png" alt="logo" />
-        <img src="./Assets/Icons/icons8-twitter-50.png" alt="logo" />
+        <img src="Assets/Icons/icons8-facebook-50.png" alt="logo" />
+        <img src="Assets/Icons/icons8-instagram-50.png" alt="logo" />
+        <img src="Assets/Icons/icons8-twitter-50.png" alt="logo" />
       </div>
     </footer>
   </body>

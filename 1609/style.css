@@ -241,7 +241,7 @@ body {
   height: 450px;
   padding: 20px;
   margin-bottom: 50px;
-  background-image: url(./Assets/Images/cat.jpg);
+  background-image: url(Assets/Images/cat.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
